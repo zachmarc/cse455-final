@@ -1,7 +1,7 @@
 # cse455-final
 ### Zachary Marcuson, zachmarc, 1934117
-### I did this by myself
-###I  also included my code here. I don't know if you will be able to run it or not, I only added the java files and nothing else.
+#### I did this by myself
+#### I also included my code here. I don't know if you will be able to run it or not, I only added the java files and nothing else.
 
 I decided to make a chess AI for my final project. I know it isn't exactly computer vision, but it is related and we did talk about it in class.
 Also it was something that I really wanted to do. This was a lot of fun.
