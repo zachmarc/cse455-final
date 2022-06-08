@@ -7,14 +7,14 @@ No components of this project were from preexisting work, I built it from scratc
 After I made the chess game where 2 people could play each other, I made the AI for the enemy side. At first I used minimax, which
 was actually quite easy to do, much easier than making a chess emulator. Without any pruning it didn't take much depth in the tree for 
 each move to take a long time. Here are some average times I recorded (no pruning):
-depth <= 3, basically instant
-depth == 4, about 1 second, a little longer
-depth == 5, about 20-40 seconds, big range
-I Didn't try any deeper.
+- depth <= 3, basically instant
+- depth == 4, about 1 second, a little longer
+- depth == 5, about 20-40 seconds, big range
+- I Didn't try any deeper.
 
 Alpha-beta did speed things up, but not as much as I expected
-depth == 4, about half a second
-depth == 5, anywhere from 5-25 seconds, which is a huge range. I guess it depends on how much you can cut off.
+- depth == 4, about half a second
+- depth == 5, anywhere from 5-25 seconds, which is a huge range. I guess it depends on how much you can cut off.
 
 At this point I decided to make the AI have some memory of previous game state and if it won the game or not.
 First I just had the AI log all of the moves that it made (a move is very simple, it is just the beginning and ending location, it doesn't
