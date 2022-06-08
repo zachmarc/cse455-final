@@ -33,7 +33,7 @@ the random never got better because even with some memory, the minimax would win
 
 At this point I did a massive overhaul of the learning mechanism. I had the AI log the entire chess board instead of just the move, since
 the move hardly had any information. I also would weigh later boards in the game heavier than earlier boards, so that early moves wouldn't
-be bogged down by losses that they were'nt at fault for. And to fix the never-ending game problem, I changed the way it would pick a maximum.
+be bogged down by losses that they weren't at fault for. And to fix the never-ending game problem, I changed the way it would pick a maximum.
 Instead of picking the first that passes the probability of victory test, I would check every single max. I would weight the probability of victory of
 one max against another and then choose whichever came out on top after getting a random value. This tactic would now favor the last moves because
 they have much fewer probabilities to win: If the first move is picked, it has to beat every other move, if the last is picked, it only has to beat one.
